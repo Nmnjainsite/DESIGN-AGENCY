@@ -22,114 +22,74 @@ const SecondPage = () => {
         Our process-driven approach keeps us going
       </p>
 
-      <Row xs={1} md={2} className="g-4" style={{ margin: "2%" }}>
-        <Col style={{ width: "400px", background: "black", color: "white" }}>
+      <Row xs={1} md={3} className="g-4">
+        <Col className="pagetwo-card-col">
           <Card style={{ background: "black" }}>
             <Card.Body className="text-box">
-              <img
-                src={img1}
-                width="50px"
-                alt=""
-                style={{ marginRight: "1.5rem" }}
-              />
+              <img src={img1} className="pagethree-images" alt="" />
               <Card.Title>TRANSPARENCY AND RELIABILITY</Card.Title>
             </Card.Body>
           </Card>
         </Col>
 
-        <Col style={{ width: "400px", background: "black", color: "white" }}>
+        <Col className="pagetwo-card-col">
           <Card style={{ background: "black" }}>
             <Card.Body className="text-box">
-              <img
-                src={img2}
-                width="50px"
-                alt=""
-                style={{ marginRight: "1.5rem" }}
-              />
+              <img src={img2} className="pagethree-images" alt="" />
               <Card.Title>REAL TIME PROJECT STATUS</Card.Title>
             </Card.Body>
           </Card>
         </Col>
 
-        <Col style={{ width: "400px", background: "black", color: "white" }}>
+        <Col className="pagetwo-card-col">
           <Card style={{ background: "black" }}>
             <Card.Body className="text-box">
-              <img
-                src={img3}
-                width="50px"
-                alt=""
-                style={{ marginRight: "1.5rem" }}
-              />
+              <img src={img3} className="pagethree-images" alt="" />
               <Card.Title>WELL STRUCTURED COMMUNICATION</Card.Title>
             </Card.Body>
           </Card>
         </Col>
 
-        <Col style={{ width: "400px", background: "black", color: "white" }}>
+        <Col className="pagetwo-card-col">
           <Card style={{ background: "black" }}>
             <Card.Body className="text-box">
-              <img
-                src={img4}
-                width="50px"
-                alt=""
-                style={{ marginRight: "1.5rem" }}
-              />
+              <img src={img4} className="pagethree-images" alt="" />
               <Card.Title>AGILE METHODOLOGY</Card.Title>
             </Card.Body>
           </Card>
         </Col>
 
-        <Col style={{ width: "400px", background: "black", color: "white" }}>
+        <Col className="pagetwo-card-col">
           <Card style={{ background: "black" }}>
             <Card.Body className="text-box">
-              <img
-                src={img5}
-                width="50px"
-                alt=""
-                style={{ marginRight: "1.5rem" }}
-              />
+              <img src={img5} className="pagethree-images" alt="" />
               <Card.Title>ONSITE COLLABORATION</Card.Title>
             </Card.Body>
           </Card>
         </Col>
 
-        <Col style={{ width: "400px", background: "black", color: "white" }}>
+        <Col className="pagetwo-card-col">
           <Card style={{ background: "black" }}>
             <Card.Body className="text-box">
-              <img
-                src={img6}
-                width="50px"
-                alt=""
-                style={{ marginRight: "1.5rem" }}
-              />
+              <img src={img6} className="pagethree-images" alt="" />
               <Card.Title>INNOVATION AT WORK</Card.Title>
             </Card.Body>
           </Card>
         </Col>
 
-        <Col style={{ width: "400px", background: "black", color: "white" }}>
+        <Col className="pagetwo-card-col">
           <Card style={{ background: "black" }}>
             <Card.Body className="text-box">
-              <img
-                src={img7}
-                width="50px"
-                alt=""
-                style={{ marginRight: "1.5rem" }}
-              />
+              <img src={img7} className="pagethree-images" alt="" />
               <Card.Title>CLIENT'S INVOLVEMENT IN EACH MILESTONE</Card.Title>
             </Card.Body>
           </Card>
         </Col>
 
-        <Col style={{ width: "400px", background: "black", color: "white" }}>
+        <Col className="pagetwo-card-col">
           <Card style={{ background: "black" }}>
             <Card.Body className="text-box">
-              <img
-                src={img8}
-                width="50px"
-                alt=""
-                style={{ marginRight: "1.5rem" }}
-              />
+              <img src={img8} className="pagethree-images" alt="" />
               <Card.Title>DEDICATED TEAM</Card.Title>
             </Card.Body>
           </Card>

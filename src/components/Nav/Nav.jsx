@@ -1,4 +1,3 @@
-import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Button } from "react-bootstrap";
@@ -8,16 +7,19 @@ function HeaderNav() {
     <Navbar collapseOnSelect expand="lg" style={{ inset: 0, padding: "3rem" }}>
       <Navbar.Brand
         style={{
-          font: "Roboto sans-serif 900 40px/30px Gilroy",
+          font: "Roboto sans-serif  Gilroy",
+          fontSize: "2.5rem",
+          lineHeight: "2.5rem",
+          fontWeight: "bolder",
         }}
       >
         DESIGN
         <p
           style={{
             textAlign: "left",
-            font: "Roboto sans-serif 30px/30px Gilroy",
+            font: "Roboto sans-serif Gilroy",
             fontSize: "1.8rem",
-            fontWeight: "lighter",
+            fontWeight: 500,
           }}
         >
           AGENCY

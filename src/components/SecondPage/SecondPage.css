@@ -18,8 +18,18 @@
   font-family: "Roboto", sans-serif;
 }
 
+.pagetwo-card-col {
+  background-color: black;
+  color: #ffff;
+}
+
 @media (max-width: 900px) {
   .second-page-typography {
     font: normal normal 900 30px/40px Gilroy;
+  }
+
+  .pagetwo-card-col {
+    background-color: black;
+    color: #ffff;
   }
 }
