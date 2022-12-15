@@ -1,0 +1,13 @@
+.pagethree-typography {
+  text-align: center;
+  font: 900 60px/60px Gilroy;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 900px) {
+  .pagethree-typography {
+    text-align: center;
+    font: 900 30px/40px Gilroy;
+    font-family: "Roboto", sans-serif;
+  }
+}

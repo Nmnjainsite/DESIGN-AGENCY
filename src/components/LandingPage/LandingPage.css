@@ -1,0 +1,58 @@
+.landing-page-text {
+  text-align: left;
+  font-weight: bolder;
+  font-size: 5rem;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-left: 15%;
+}
+
+.landing-page-text-2 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-left: 15%;
+}
+
+.landing-img {
+  width: 50%;
+  position: relative;
+  top: 2rem;
+}
+
+@media (max-width: 1100px) {
+  .landing-img {
+    width: 100%;
+    position: relative;
+    top: 3rem;
+  }
+
+  .landing-page-text {
+    font-size: 3rem;
+  }
+
+  .landing-page-text-2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .landing-img {
+    width: 100%;
+    position: relative;
+    top: 1.7rem;
+  }
+  .landing-page-text {
+    font-size: 2rem;
+  }
+  .landing-page-text-2 {
+    font-size: 1.2rem;
+  }
+}

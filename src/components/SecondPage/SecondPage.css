@@ -1,0 +1,25 @@
+.pagetwo-container {
+  background-color: black;
+  padding: 2.6rem;
+}
+
+.second-page-typography {
+  text-align: center;
+  font: 900 50px/60px Gilroy;
+  letter-spacing: 0px;
+  color: #00ff00;
+  text-transform: uppercase;
+  opacity: 1;
+  font-family: "Roboto", sans-serif;
+}
+
+.text-box {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 900px) {
+  .second-page-typography {
+    font: normal normal 900 30px/40px Gilroy;
+  }
+}

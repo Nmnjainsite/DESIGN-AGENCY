@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import LandingPage from "./components/LandingPage/LandingPage";
+import HeaderNav from "./components/Nav/Nav";
+import PageThree from "./components/PageThree/PageThree";
+import SecondPage from "./components/SecondPage/SecondPage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section className="App">
+      <div
+        style={{
+          width: "100%",
+          height: "100%",
+          background: "#00FF00",
+          borderBottomLeftRadius: "25%",
+          opacity: 1,
+        }}
+      >
+        <HeaderNav />
+        <LandingPage />
+      </div>
+      <div>
+        <SecondPage />
+        <PageThree />
+      </div>
+    </section>
   );
 }
 
