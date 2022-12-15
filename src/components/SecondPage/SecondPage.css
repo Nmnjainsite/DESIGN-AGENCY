@@ -16,6 +16,7 @@
 .text-box {
   display: flex;
   font-family: unset;
+  margin: 1rem;
 }
 
 .pagetwo-card-col {
