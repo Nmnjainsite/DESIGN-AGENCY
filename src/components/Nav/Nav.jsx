@@ -8,7 +8,7 @@ function HeaderNav() {
       <Navbar.Brand
         style={{
           position: "relative",
-          top: "0.5rem",
+          top: "0.4rem",
           font: "normal normal 900 40px/30px Gilroy",
           fontFamily: "unset",
           fontSize: "2.5rem",
