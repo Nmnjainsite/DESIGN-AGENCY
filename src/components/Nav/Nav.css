@@ -9,7 +9,7 @@
   padding-left: 2rem;
   color: black;
   margin-left: 0.5rem;
-  font-family: "Roboto", sans-serif;
+  font-family: unset;
 }
 
 .btn:nth-child(1) {
@@ -23,15 +23,15 @@
   padding-left: 2rem;
   color: #ffff;
   margin-left: 0.5rem;
-  font-family: "Roboto", sans-serif;
+  font-family: unset;
 }
 
 .nav-items {
   font: 600 15px/22px Gilroy;
-  margin: 0.5rem;
+  margin: 0.3rem;
   cursor: pointer;
   margin-left: 2rem;
-  font-family: "Roboto", sans-serif;
+  font-family: unset;
   text-align: center;
 }
 

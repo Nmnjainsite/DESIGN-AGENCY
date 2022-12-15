@@ -2,15 +2,15 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import img200 from "../../assets/img-2.0.jpg";
-import img201 from "../../assets/img-2.1.jpg";
-import img202 from "../../assets/img2.2.jpg";
-import img203 from "../../assets/img-2.3.jpg";
-import img204 from "../../assets/img-2.4.jpg";
-import img205 from "../../assets/img-2.5.jpg";
-import img206 from "../../assets/img-2.6.jpg";
-import img207 from "../../assets/img-2.7.jpg";
-import img208 from "../../assets/img-2.8.jpg";
+import img200 from "../../assets/img-2.0.png";
+import img201 from "../../assets/img-2.1.png";
+import img202 from "../../assets/img-2.2.png";
+import img203 from "../../assets/img-2.3.png";
+import img204 from "../../assets/img-2.4.png";
+import img205 from "../../assets/img-2.5.png";
+import img206 from "../../assets/img-2.6.png";
+import img207 from "../../assets/img-2.7.png";
+import img208 from "../../assets/img-2.8.png";
 import "./PageThree.css";
 const PageThree = () => {
   return (
@@ -67,7 +67,7 @@ const PageThree = () => {
         <Col className="pagethree-card-col">
           <Card style={{ background: "#EDEDED", border: "none" }}>
             <Card.Body className="text-box">
-              <img src={img208} className="pagethree-images" alt="" />
+              <img src={img204} className="pagethree-images" alt="" />
               <Card.Title className="card-typography">
                 EDUCATION & LEARNING
               </Card.Title>
@@ -78,7 +78,7 @@ const PageThree = () => {
         <Col className="pagethree-card-col">
           <Card style={{ background: "#EDEDED", border: "none" }}>
             <Card.Body className="text-box">
-              <img src={img204} className="pagethree-images" alt="" />
+              <img src={img205} className="pagethree-images" alt="" />
               <Card.Title className="card-typography">
                 TRAVEL & TRANSPORT
               </Card.Title>
@@ -89,7 +89,7 @@ const PageThree = () => {
         <Col className="pagethree-card-col">
           <Card style={{ background: "#EDEDED", border: "none" }}>
             <Card.Body className="text-box">
-              <img src={img205} className="pagethree-images" alt="" />
+              <img src={img206} className="pagethree-images" alt="" />
               <Card.Title className="card-typography">
                 MOBILE & TELECOM
               </Card.Title>
@@ -100,7 +100,7 @@ const PageThree = () => {
         <Col className="pagethree-card-col">
           <Card style={{ background: "#EDEDED", border: "none" }}>
             <Card.Body className="text-box">
-              <img src={img206} className="pagethree-images" alt="" />
+              <img src={img207} className="pagethree-images" alt="" />
               <Card.Title className="card-typography">IT & ITES</Card.Title>
             </Card.Body>
           </Card>
@@ -109,7 +109,7 @@ const PageThree = () => {
         <Col className="pagethree-card-col">
           <Card style={{ background: "#EDEDED", border: "none" }}>
             <Card.Body className="text-box">
-              <img src={img207} className="pagethree-images" alt="" />
+              <img src={img208} className="pagethree-images" alt="" />
               <Card.Title className="card-typography">AGRITECH</Card.Title>
             </Card.Body>
           </Card>

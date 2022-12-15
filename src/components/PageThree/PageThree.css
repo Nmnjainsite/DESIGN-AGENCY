@@ -1,19 +1,21 @@
 .pagethree-typography {
   text-align: center;
   font: 900 60px/60px Gilroy;
-  font-family: "Roboto", sans-serif;
+  font-family: unset;
 }
 
 .card-typography {
   font-size: 1.3rem;
   font-weight: bold;
-  font-family: "Roboto", sans-serif;
+  font-family: unset;
 }
 
 .pagethree-images {
   width: 80px;
-
-  margin-right: 2rem;
+  height: 80px;
+  background: transparent;
+  margin-right: 1rem;
+  margin-top: -5%;
 }
 
 .pagethree-card-col {
@@ -35,12 +37,12 @@
 @media (max-width: 750px) {
   .pagethree-typography {
     text-align: center;
-    font: 900 30px/40px Gilroy;
-    font-family: "Roboto", sans-serif;
+    font: normal normal 900 30px/40px Gilroy;
+    font-family: unset;
   }
   .card-typography {
     font-size: 1rem;
-    font-family: "Roboto", sans-serif;
+    font-family: unset;
   }
   .g-4 {
     display: grid;

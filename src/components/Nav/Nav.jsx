@@ -7,7 +7,10 @@ function HeaderNav() {
     <Navbar collapseOnSelect expand="lg" style={{ inset: 0, padding: "3rem" }}>
       <Navbar.Brand
         style={{
-          font: "Roboto sans-serif  Gilroy",
+          position: "relative",
+          top: "0.5rem",
+          font: "normal normal 900 40px/30px Gilroy",
+          fontFamily: "unset",
           fontSize: "2.5rem",
           lineHeight: "2.5rem",
           fontWeight: "bolder",
@@ -16,8 +19,9 @@ function HeaderNav() {
         DESIGN
         <p
           style={{
+            font: "normal normal medium 30px/30px Gilroy",
             textAlign: "left",
-            font: "Roboto sans-serif Gilroy",
+            fontFamily: "unset",
             fontSize: "1.8rem",
             fontWeight: 500,
           }}
