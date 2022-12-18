@@ -1,6 +1,7 @@
 .pagetwo-container {
   background-color: black;
   padding: 2.6rem;
+  /* overflow: hidden; */
 }
 
 .second-page-typography {
@@ -32,5 +33,10 @@
   .pagetwo-card-col {
     background-color: black;
     color: #ffff;
+  }
+  .text-box {
+    display: flex;
+    font-family: unset;
+    margin: 0rem;
   }
 }
